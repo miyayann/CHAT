@@ -1,3 +1,4 @@
+"// use client"
 
 import { supabase } from "@/utils/supabase";
 import { TABLE_NAME, deleteSupabaseData, fetchDatabase} from "../hooks/useFunction"

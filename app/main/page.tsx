@@ -1,10 +1,9 @@
-"use client"
+"// use client"
 
 import ChatApp from '@/components/ChatApp'
 import { useRouter } from 'next/navigation';
 import { supabase } from '@/utils/supabase';
 import {useUserContext} from "../Context/Store"
-import useAuth from "@/hooks/useAuth";
 
 
 const Page = () => {
