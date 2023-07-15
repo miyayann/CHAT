@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import ChatApp from '@/components/ChatApp'
 import { useRouter } from 'next/navigation';
