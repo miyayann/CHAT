@@ -43,7 +43,6 @@ const UploadFileForm = () => {
         .getPublicUrl(filePath);
       const imageUrl = data.publicUrl;
       setPath(imageUrl);
-      onPathChange(imageUrl); // パスを親コンポーネントに渡す
     }
 
 

@@ -1,4 +1,4 @@
-"// use client"
+'use client'
 
 import ChatApp from '@/components/ChatApp'
 import { useRouter } from 'next/navigation';
@@ -30,7 +30,7 @@ const Page = () => {
           </nav>
         </div>
       </div>
-      <main className='flex flex-1'>
+      <main className=''>
       <ChatApp/>
       </main>
       <div>
@@ -39,4 +39,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default Page;

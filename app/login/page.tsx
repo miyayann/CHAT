@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import useAuth from "@/hooks/useAuth";
 import { NextPage } from "next";
@@ -62,7 +62,7 @@ return (
     <input type="password" placeholder="パスワード" className='px-3 py-2 border-gray-200 border focus:border-indigo-300 focus:border placeholder-blue-300 rounded-lg mb-3' {...register('password', { required: true })} />
     </label>
       <button className='py-2 px-4 bg-indigo-500 rounded-lg text-white w-full hover:bg-indigo-700 mb-3' type="submit">ログイン</button>
-      <button className='py-2 px-4 bg-indigo-500 rounded-lg text-white w-full hover:bg-indigo-700' onClick={() => router.push('/')}>登録画面へ</button>
+      <button className='py-2 px-4 bg-indigo-500 rounded-lg text-white w-full hover:bg-indigo-700' onClick={() => router.push('/userCreate')}>登録画面へ</button>
   </form>
   </div>
 )

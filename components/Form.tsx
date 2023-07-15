@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+'use client'
+
+import { useState } from "react";
 import { supabase } from "@/utils/supabase";
 import { addSupabaseData } from "../hooks/useFunction";
-import { Database } from "@/type/type";
 
 const Form = () => {
   const [inputText, setInputText] = useState("");
