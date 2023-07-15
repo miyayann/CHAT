@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import { supabase } from "@/utils/supabase";
 import { createContext, useContext, useEffect, useState, ReactNode} from "react";
@@ -29,7 +29,6 @@ export const UserContextProvider = ({ children }: { children: ReactNode }) => {
 
     fetchUser();
   }, []);
-
 
   return (
     <UserContext.Provider value={ user }>
