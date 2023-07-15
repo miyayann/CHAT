@@ -1,4 +1,5 @@
-"use client"
+
+
 import { NextPage } from 'next';
 import { useRouter } from 'next/navigation';
 import { SubmitHandler, useForm } from 'react-hook-form';
