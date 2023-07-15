@@ -1,4 +1,5 @@
 "use client"
+
 import './globals.css'
 import{UserContextProvider} from "../app/Context/Store"
 
